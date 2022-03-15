@@ -1,14 +1,14 @@
 <?php
 
 return [
-    ['text' => "CHARACTERS", 'route' => 'char'],
-    ['text' => "COMICS", 'route' => '/'],
-    ['text' => "MOVIES", 'route' => '/'],
-    ['text' => "TV", 'route' => '/'],
-    ['text' => "GAMES", 'route' => '/'],
-    ['text' => "COLLECTIBLES", 'route' => '/'],
-    ['text' => "VIDEOS", 'route' => '/'],
-    ['text' => "FANS", 'route' => '/'],
-    ['text' => "NEWS", 'route' => '/'],
-    ['text' => "SHOP ▼", 'route' => '/'],
+    ['text' => "CHARACTERS", 'route' => 'characters'],
+    ['text' => "COMICS", 'route' => 'comics'],
+    ['text' => "MOVIES", 'route' => 'movies'],
+    ['text' => "TV", 'route' => 'tv'],
+    ['text' => "GAMES", 'route' => 'games'],
+    ['text' => "COLLECTIBLES", 'route' => 'collectibles'],
+    ['text' => "VIDEOS", 'route' => 'videos'],
+    ['text' => "FANS", 'route' => 'fans'],
+    ['text' => "NEWS", 'route' => 'news'],
+    ['text' => "SHOP ▼", 'route' => 'shop'],
 ];
