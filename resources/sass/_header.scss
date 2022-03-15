@@ -60,9 +60,13 @@ header {
                 text-align: right;
                 padding-right: 25px;
                 color: black;
+                font-weight: bold;
+                font-size: 0.9rem;
             }
             &.icon {
-                background: url(http://cdn.onlinewebfonts.com/svg/img_536022.png) no-repeat right;
+                background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/OOjs_UI_icon_search-ltr.svg/1200px-OOjs_UI_icon_search-ltr.svg.png)
+                    no-repeat right;
+
                 background-size: contain;
             }
             &:focus-visible {
