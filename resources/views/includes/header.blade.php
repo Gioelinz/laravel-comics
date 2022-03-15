@@ -2,7 +2,13 @@
 $menu_items = config('menu_items');
 @endphp
 
-
+<div class="top-header">
+    <div class="container">
+        <a href="#">DC POWER&#8482;VISA&#174;</a>
+        <a href="#">ADDITIONAL DC SITES
+            &#9660;</a>
+    </div>
+</div>
 <header>
     <div class="container">
         <div class="nav-container">
@@ -18,6 +24,7 @@ $menu_items = config('menu_items');
                     @endforeach
                 </ul>
             </nav>
+            <input class="icon" type="text" placeholder="Search">
         </div>
     </div>
 </header>

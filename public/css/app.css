@@ -53,34 +53,50 @@ main .jumbo-img h2 {
   bottom: -25px;
 }
 
+.top-header {
+  background-color: #0282f9;
+}
+.top-header .container {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-header a {
+  color: white;
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
 header .nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 13px 0;
 }
-header .nav-container ul {
+header .nav-container nav {
+  margin-left: 50px;
+}
+header .nav-container nav ul {
   display: flex;
   padding: 2rem 0;
 }
-header .nav-container ul li {
+header .nav-container nav ul li {
   padding: 1rem;
 }
-header .nav-container ul li a {
+header .nav-container nav ul li a {
   color: #585858;
   font-size: 0.9rem;
   font-weight: bold;
   padding: 3.55rem 0;
   position: relative;
 }
-header .nav-container ul li a.active {
+header .nav-container nav ul li a.active {
   color: #0282f9;
   border-bottom: 5px solid #0282f9;
 }
-header .nav-container ul li a:hover {
+header .nav-container nav ul li a:hover {
   color: #0282f9;
 }
-header .nav-container ul li a::before {
+header .nav-container nav ul li a::before {
   content: "";
   position: absolute;
   bottom: -5px;
@@ -91,6 +107,32 @@ header .nav-container ul li a::before {
 }
 header .nav-container ul li a:hover::before {
   height: 5px;
+}
+header .nav-container input {
+  border: 0;
+  border-bottom: 1px solid #0282f9;
+}
+header .nav-container input::-moz-placeholder {
+  text-align: right;
+  padding-right: 25px;
+  color: black;
+}
+header .nav-container input:-ms-input-placeholder {
+  text-align: right;
+  padding-right: 25px;
+  color: black;
+}
+header .nav-container input::placeholder {
+  text-align: right;
+  padding-right: 25px;
+  color: black;
+}
+header .nav-container input.icon {
+  background: url(http://cdn.onlinewebfonts.com/svg/img_536022.png) no-repeat right;
+  background-size: contain;
+}
+header .nav-container input:focus-visible {
+  outline: 0;
 }
 
 main .container .cards-container {

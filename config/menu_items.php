@@ -10,5 +10,5 @@ return [
     ['text' => "VIDEOS", 'route' => '/'],
     ['text' => "FANS", 'route' => '/'],
     ['text' => "NEWS", 'route' => '/'],
-    ['text' => "SHOP", 'route' => '/'],
+    ['text' => "SHOP ▼", 'route' => '/'],
 ];
