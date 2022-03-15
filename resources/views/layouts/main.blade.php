@@ -19,6 +19,7 @@
         </div>
         @yield('content')
     </main>
+    @include('includes.links')
 </body>
 
 </html>
