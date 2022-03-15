@@ -1,27 +1,47 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  pointer-events: none;
+  user-select: none;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+main {
+  background-color: #1c1c1c;
+  color: white;
+  .jumbo-img {
+    background-image: url(../images/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
+    position: relative;
+    margin-bottom: 2rem;
+    h2 {
+      padding: 10px 15px;
+      background-color: $primary_color;
+      display: inline-block;
+      box-shadow: 0px 3px 10px 1px #000000;
+      position: absolute;
+      bottom: -25px;
+    }
   }
-  
-  .container {
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-  
-  img {
-    max-width: 100%;
-    pointer-events: none;
-    user-select: none;
-    height: auto;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  li {
-    list-style-type: none;
-  }
-  
+}

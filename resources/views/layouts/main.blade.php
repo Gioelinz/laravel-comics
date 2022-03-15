@@ -11,6 +11,14 @@
 
 <body>
     @include('includes.header')
+    <main>
+        <div class="jumbo-img">
+            <div class="container">
+                <h2>@yield('tag')</h2>
+            </div>
+        </div>
+        @yield('content')
+    </main>
 </body>
 
 </html>

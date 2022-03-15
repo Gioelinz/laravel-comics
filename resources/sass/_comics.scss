@@ -1,0 +1,35 @@
+main .container {
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        .series-card {
+            flex-basis: calc(100% / 6);
+            padding: 20px;
+            img {
+                min-width: 180px;
+                height: 180px;
+                object-fit: cover;
+                object-position: -100% 0;
+                margin-bottom: 0.7rem;
+            }
+            p {
+                max-width: 180px;
+            }
+        }
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    button {
+        background-color: $primary_color;
+        cursor: pointer;
+        color: white;
+        border: 0;
+        padding: 8px 3rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        box-shadow: 0px 3px 10px 1px #000000;
+    }
+}
