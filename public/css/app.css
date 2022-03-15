@@ -153,3 +153,64 @@ main .container .cards-container .series-card p {
 #links .item-link a p {
   width: 150px;
 }
+
+footer {
+  background-image: url("../images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .footer-lists {
+  padding: 40px 0;
+  margin-right: 30px;
+}
+footer .footer-lists h2 {
+  color: white;
+}
+footer .footer-lists ul {
+  padding: 15px 0;
+}
+footer .footer-lists ul li {
+  padding: 3px 0;
+}
+footer .footer-lists ul li a {
+  color: grey;
+}
+footer .relative {
+  position: relative;
+}
+footer img {
+  position: absolute;
+  top: -50px;
+  right: 0;
+}
+
+#b-footer {
+  background-color: #303030;
+  position: relative;
+}
+#b-footer .footer-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+#b-footer .footer-buttons .signup-btn {
+  color: white;
+  padding: 10px 15px;
+  border: 2px solid #0282f9;
+}
+#b-footer .footer-buttons .signup-btn:hover {
+  background-color: #0282f9;
+}
+#b-footer .footer-buttons .socials {
+  display: flex;
+}
+#b-footer .footer-buttons .socials h2 {
+  color: #0282f9;
+  padding: 0 20px;
+}
+#b-footer .footer-buttons .socials ul {
+  display: flex;
+}
+#b-footer .footer-buttons .socials ul a {
+  margin-left: 15px;
+}

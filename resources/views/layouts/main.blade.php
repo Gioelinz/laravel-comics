@@ -20,6 +20,8 @@
         @yield('content')
     </main>
     @include('includes.links')
+    @include('includes.footer')
+    @include('includes.bottom-footer')
 </body>
 
 </html>

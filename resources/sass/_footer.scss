@@ -1,0 +1,30 @@
+footer {
+    background-image: url("../images/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .footer-lists {
+        padding: 40px 0;
+        margin-right: 30px;
+        h2 {
+            color: white;
+        }
+        ul {
+            padding: 15px 0;
+            li {
+                padding: 3px 0;
+                a {
+                    color: grey;
+                }
+            }
+        }
+    }
+    .relative {
+        position: relative;
+    }
+
+    img {
+        position: absolute;
+        top: -50px;
+        right: 0;
+    }
+}
