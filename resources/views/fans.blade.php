@@ -1,6 +1,8 @@
 @extends('layouts.main')
 
-@section('tag', 'FANS')
+@section('tag')
+    <h2>FANS</h2>
+@endsection
 
 @section('content')
     <h1>Fans</h1>

@@ -21,9 +21,16 @@ Route::get('/characters', function () {
     return view('characters');
 })->name('characters');
 
+// sezione comics
+
 Route::get('/comics', function () {
-    return view('comics');
-})->name('comics');
+    return view('comics.index');
+})->name('comics.index');
+
+Route::get('/comics/1', function () {
+    return view('comics.show');
+})->name('comics.show');
+
 
 Route::get('/movies', function () {
     return view('movies');

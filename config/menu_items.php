@@ -2,7 +2,7 @@
 
 return [
     ['text' => "CHARACTERS", 'route' => 'characters'],
-    ['text' => "COMICS", 'route' => 'comics'],
+    ['text' => "COMICS", 'route' => 'comics.index'],
     ['text' => "MOVIES", 'route' => 'movies'],
     ['text' => "TV", 'route' => 'tv'],
     ['text' => "GAMES", 'route' => 'games'],

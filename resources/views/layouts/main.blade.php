@@ -14,7 +14,7 @@
     <main>
         <div class="jumbo-img">
             <div class="container">
-                <h2>@yield('tag')</h2>
+                @yield('tag')
             </div>
         </div>
         @yield('content')

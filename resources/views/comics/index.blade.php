@@ -4,7 +4,9 @@ $comics = config('comics');
 
 @extends('layouts.main')
 
-@section('tag', 'CURRENT SERIES')
+@section('tag')
+    <h2>CURRENT SERIES</h2>
+@endsection
 
 @section('content')
     <div class="container">

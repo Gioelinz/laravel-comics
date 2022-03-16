@@ -1,6 +1,8 @@
 @extends('layouts.main')
 
-@section('tag', 'COLLECTIBLES')
+@section('tag')
+    <h2>COLLECTIBLES</h2>
+@endsection
 
 @section('content')
     <h1>Collectibles</h1>
