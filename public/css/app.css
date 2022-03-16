@@ -149,6 +149,9 @@ main .container .cards-container .series-card {
   flex-basis: 16.6666666667%;
   padding: 20px;
 }
+main .container .cards-container .series-card a {
+  display: block;
+}
 main .container .cards-container .series-card img {
   min-width: 180px;
   height: 180px;

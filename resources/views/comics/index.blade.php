@@ -11,9 +11,11 @@ $comics = config('comics');
 @section('content')
     <div class="container">
         <div class="cards-container">
-            @foreach ($comics as $comic)
+            @foreach ($comics as $index => $comic)
                 <div class="series-card">
-                    <img src="{{ $comic['thumb'] }}" alt="{{ $comic['type'] }}" />
+                    <a href="{{ route('comics.show', ['id' => $index]) }}">
+                        <img src="{{ $comic['thumb'] }}" alt="{{ $comic['type'] }}" />
+                    </a>
                     <p>{{ strtoupper($comic['series']) }}</p>
                 </div>
             @endforeach

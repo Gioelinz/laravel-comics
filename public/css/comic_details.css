@@ -113,17 +113,23 @@ main .jumbo-img {
 .info-comic .talent-specs .talent-sec .content,
 .info-comic .talent-specs .specs-sec .content {
   display: flex;
-  gap: 50px;
+  justify-content: space-between;
   margin: 10px 0;
 }
 .info-comic .talent-specs .talent-sec .content .title,
 .info-comic .talent-specs .specs-sec .content .title {
-  flex-basis: 40%;
+  flex-basis: 30%;
 }
 .info-comic .talent-specs .talent-sec .content .blue,
 .info-comic .talent-specs .specs-sec .content .blue {
+  flex-basis: 70%;
   color: #0282f9;
   font-weight: 600;
+  text-align: end;
+}
+.info-comic .talent-specs .talent-sec .content .blue span,
+.info-comic .talent-specs .specs-sec .content .blue span {
+  color: black;
 }
 .info-comic .talent-specs h2 {
   margin: 20px 0;

@@ -113,14 +113,19 @@ main {
             flex-basis: 50%;
             .content {
                 display: flex;
-                gap: 50px;
+                justify-content: space-between;
                 margin: 10px 0;
                 .title {
-                    flex-basis: 40%;
+                    flex-basis: 30%;
                 }
                 .blue {
+                    flex-basis: 70%;
                     color: $primary_color;
                     font-weight: 600;
+                    text-align: end;
+                    span {
+                        color: black;
+                    }
                 }
             }
         }
