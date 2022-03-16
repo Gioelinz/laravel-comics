@@ -19,11 +19,12 @@ $menu_items = config('menu_items');
             </a>
             <nav>
                 <ul>
-                    @foreach ($menu_items as $item)
+                    @foreach ($menu_items as $index => $item)
                         <li>
                             <a class="{{ request()->routeIs($item['route']) ? 'active' : '' }}
                                 {{ (Request::is('comics/*') ? $loop->index == 1 : '') ? 'active' : '' }}"
-                                href="{{ route($item['route']) }}">{{ $item['text'] }}</a>
+                                href="
+                                {{ route($item['route']) }}">{{ $item['text'] }}</a>
                         </li>
                     @endforeach
                 </ul>

@@ -90,7 +90,7 @@
                     <hr>
                     <div class="content">
                         <p class="title">On Sale Date</p>
-                        <p>{{ $comic['sale_date'] }}</p>
+                        <p>{{ date('M d Y', strtotime($comic['sale_date'])) }}</p>
                     </div>
                     <hr>
                 </div>
