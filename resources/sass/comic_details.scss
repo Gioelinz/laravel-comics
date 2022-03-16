@@ -103,4 +103,45 @@ main {
 .info-comic {
     background-color: #f6f6f6;
     color: #074666;
+    margin-top: 100px;
+    padding-bottom: 200px;
+    .talent-specs {
+        display: flex;
+        gap: 60px;
+        .talent-sec,
+        .specs-sec {
+            flex-basis: 50%;
+            .content {
+                display: flex;
+                gap: 50px;
+                margin: 10px 0;
+                .title {
+                    flex-basis: 40%;
+                }
+                .blue {
+                    color: $primary_color;
+                    font-weight: 600;
+                }
+            }
+        }
+        h2 {
+            margin: 20px 0;
+        }
+    }
+}
+
+#links {
+    background-color: #f6f6f6;
+    color: #d8d8d8;
+    position: relative;
+    z-index: 2;
+
+    .item-link {
+        img {
+            filter: grayscale(20%) invert(1);
+        }
+        a {
+            color: gray;
+        }
+    }
 }

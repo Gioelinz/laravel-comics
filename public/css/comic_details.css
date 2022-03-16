@@ -99,4 +99,45 @@ main .jumbo-img {
 .info-comic {
   background-color: #f6f6f6;
   color: #074666;
+  margin-top: 100px;
+  padding-bottom: 200px;
+}
+.info-comic .talent-specs {
+  display: flex;
+  gap: 60px;
+}
+.info-comic .talent-specs .talent-sec,
+.info-comic .talent-specs .specs-sec {
+  flex-basis: 50%;
+}
+.info-comic .talent-specs .talent-sec .content,
+.info-comic .talent-specs .specs-sec .content {
+  display: flex;
+  gap: 50px;
+  margin: 10px 0;
+}
+.info-comic .talent-specs .talent-sec .content .title,
+.info-comic .talent-specs .specs-sec .content .title {
+  flex-basis: 40%;
+}
+.info-comic .talent-specs .talent-sec .content .blue,
+.info-comic .talent-specs .specs-sec .content .blue {
+  color: #0282f9;
+  font-weight: 600;
+}
+.info-comic .talent-specs h2 {
+  margin: 20px 0;
+}
+
+#links {
+  background-color: #f6f6f6;
+  color: #d8d8d8;
+  position: relative;
+  z-index: 2;
+}
+#links .item-link img {
+  filter: grayscale(20%) invert(1);
+}
+#links .item-link a {
+  color: gray;
 }

@@ -52,7 +52,61 @@
     <div class="info-comic">
         <hr>
         <div class="container">
-            ciao
+            <div class="talent-specs">
+                <div class="talent-sec">
+                    <h2>Talent</h2>
+                    <hr>
+                    <div class="content">
+                        <p class="title">Art By:</p>
+                        <p class="blue">José Luis García-López",
+                            "Clay Mann",
+                            "Rafael Albuquerque",
+                            "Patrick Gleason",
+                            "Dan Jurgens",
+                            "Joe Shuster",
+                            "Neal Adams",
+                            "Curt Swan",
+                            "John Cassaday",
+                            "Olivier Coipel",
+                            "Jim Lee</p>
+                    </div>
+                    <hr>
+                    <div class="content">
+                        <p class="title">Written By:</p>
+                        <p class="blue">José Luis García-López",
+                            "Clay Mann",
+                            "Rafael Albuquerque",
+                            "Patrick Gleason",
+                            "Dan Jurgens",
+                            "Joe Shuster",
+                            "Neal Adams",
+                            "Curt Swan",
+                            "John Cassaday",
+                            "Olivier Coipel",
+                            "Jim Lee</p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="specs-sec">
+                    <h2>Specs</h2>
+                    <hr>
+                    <div class="content">
+                        <p class="title">Series</p>
+                        <p class="blue">ACTION COMICS</p>
+                    </div>
+                    <hr>
+                    <div class="content">
+                        <p class="title">U.S. PRICE</p>
+                        <p>$19.99</p>
+                    </div>
+                    <hr>
+                    <div class="content">
+                        <p class="title">On Sale Date</p>
+                        <p>ACTION COMICS</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
         </div>
     </div>
 @endsection
