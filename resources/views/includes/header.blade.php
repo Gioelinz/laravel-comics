@@ -21,7 +21,8 @@ $menu_items = config('menu_items');
                 <ul>
                     @foreach ($menu_items as $item)
                         <li>
-                            <a class="{{ request()->routeIs($item['route']) ? 'active' : '' }}"
+                            <a class="{{ request()->routeIs($item['route']) ? 'active' : '' }}
+                                {{ (request()->routeIs('comics.show') ? $loop->index == 1 : '') ? 'active' : '' }}"
                                 href="{{ route($item['route']) }}">{{ $item['text'] }}</a>
                         </li>
                     @endforeach
