@@ -1,6 +1,9 @@
 @extends('layouts.main')
 
 @section('styles')
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css'
+        integrity='sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=='
+        crossorigin='anonymous' />
     <link rel="stylesheet" href="{{ asset('css/comic_details.css') }}">
 @endsection
 
@@ -93,5 +96,16 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="navigation prev">
+        <a href="{{ route('comics.show', ['id' => $prev]) }}">
+            <i class="fa-solid fa-angle-left fa-4x"></i>
+        </a>
+    </div>
+    <div class="navigation next">
+        <a href="{{ route('comics.show', ['id' => $next]) }}">
+            <i class="fa-solid fa-angle-right fa-4x"></i>
+        </a>
     </div>
 @endsection

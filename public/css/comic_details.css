@@ -135,6 +135,24 @@ main .jumbo-img {
   margin: 20px 0;
 }
 
+.navigation {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  -webkit-animation: shake-horizontal 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
+          animation: shake-horizontal 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
+}
+.navigation.prev {
+  left: 10px;
+}
+.navigation.next {
+  right: 10px;
+}
+.navigation a {
+  color: black;
+}
+
 #links {
   background-color: #f6f6f6;
   color: #d8d8d8;
@@ -146,4 +164,40 @@ main .jumbo-img {
 }
 #links .item-link a {
   color: gray;
+}
+
+@-webkit-keyframes shake-horizontal {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(8px);
+  }
+  90% {
+    transform: translateX(-8px);
+  }
+}
+
+@keyframes shake-horizontal {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(8px);
+  }
+  90% {
+    transform: translateX(-8px);
+  }
 }
